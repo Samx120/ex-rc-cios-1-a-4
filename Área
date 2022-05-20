@@ -1,0 +1,25 @@
+using System;
+
+
+  class Program {
+  public static void Main(string[] args) {
+       double a = double.Parse(Console.ReadLine());
+       double b = double.Parse(Console.ReadLine());
+       double c = double.Parse(Console.ReadLine());
+        double pi = 3.14159;
+
+       double Triangulo = a*c/2;
+       double Circulo = Math.Pow(c, 2)*pi;
+       double Trapezio = (a+b)*c/2;
+       double Quadrado = Math.Pow(b, 2);
+       double Retangulo = a*b;
+    
+       Console.WriteLine($"TRIANGULO {Triangulo:0.000}");
+       Console.WriteLine($"CIRCULO {Circulo:0.000}");
+       Console.WriteLine($"TRAPEZIO {Trapezio:0.000}");
+       Console.WriteLine($"QUADRADO {Quadrado:0.000}");
+       Console.WriteLine($"RETANGULO {Retangulo:0.000}");
+       
+  }
+  }
+  
