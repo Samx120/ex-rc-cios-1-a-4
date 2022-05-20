@@ -1,0 +1,12 @@
+using System;
+
+
+  class Program {
+  public static void Main(string[] args) {
+     string a = Console.ReadLine();
+    
+      Console.WriteLine("Bem vindo ao c#, "+ a);
+      
+  }
+  }
+  
