@@ -1,0 +1,19 @@
+using System;
+
+
+  class Program {
+  public static void Main(string[] args) {
+      
+    int nota1 = int.Parse(Console.ReadLine());
+    int peso1 = int.Parse(Console.ReadLine());
+    int nota2 = int.Parse(Console.ReadLine());
+    int peso2 = int.Parse(Console.ReadLine());
+
+   int coiso1 =  nota1*peso1;
+   int coiso2 =  nota2*peso2;
+   int soma1 = coiso1+coiso2;
+   int soma2 =  peso1+peso2;
+     
+    Console.WriteLine(soma1/soma2);
+  }
+  }
