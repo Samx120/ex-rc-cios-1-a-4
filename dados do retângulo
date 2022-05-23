@@ -1,0 +1,26 @@
+using System;
+
+
+  class Program {
+  public static void Main(string[] args) {
+      
+    double Altura = double.Parse(Console.ReadLine());
+    double Base = double.Parse(Console.ReadLine());
+  
+       double Area = Altura*Base;
+    
+       double Perimetro = Altura*2+Base*2;
+    
+       double b2 = Math.Pow(Altura,2); 
+       double c2 = Math.Pow(Base,2);
+       double Soma = b2 + c2;
+       double a2 = Math.Sqrt(Soma);
+
+      double Diagonal = a2;
+
+    
+    Console.WriteLine($"Área = {Area:0.00}");
+    Console.WriteLine($"Perímetro = {Perimetro:0.00}");
+    Console.WriteLine($"Diagonal = {Diagonal:0.00}");
+  }
+  }
