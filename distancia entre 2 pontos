@@ -1,0 +1,19 @@
+using System;
+
+
+  class Program {
+  public static void Main(string[] args) {
+      
+    double a = double.Parse(Console.ReadLine());
+    double b = double.Parse(Console.ReadLine());
+    double c = double.Parse(Console.ReadLine());
+    double d = double.Parse(Console.ReadLine());
+    
+       double ab = a - b;
+       double cd = c - d;
+          double abcd = Math.Pow(ab, 2) + Math.Pow(cd, 2);
+          double raiz = Math.Sqrt(abcd);
+     
+    Console.WriteLine($"{raiz:0.0000}");
+  }
+  }
