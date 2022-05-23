@@ -1,0 +1,16 @@
+using System;
+
+
+  class Program {
+  public static void Main(string[] args) {
+      
+    double Raio = double.Parse(Console.ReadLine());
+    
+   double pi =  3.14;
+   double formula = 4*pi*Math.Pow(Raio, 3)/3;
+   
+   
+     
+    Console.WriteLine($"VOLUME = {formula:0.000}");
+  }
+  }
